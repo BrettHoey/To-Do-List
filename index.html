@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section id="titleList">
+        <h1>To-Do-List</h1>
+        <h1>Add task here</h1>
+    </section>
+    <section>
+        <button id="add" class="btn">Add Task</button>
+        <div id="textAreaContainer">
+            <textarea id="userTextArea" rows="5" cols="30" placeholder="Write your task here..."></textarea>
+            <p>After writing text, please click this button</p>
+            <button id="finishTask" class="btn" onclick="addTask()">Publish task</button>
+        </div>
+    </section>
+    <section id="tasks">
+        <!-- where task go after publish -->
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
